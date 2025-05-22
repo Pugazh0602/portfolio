@@ -7,25 +7,25 @@ const workExperiences = [
   {
     title: 'App Development',
     description: 'I design and build innovative Android apps that combine AI, voice interaction, and real-time cloud features. My projects focus on solving real-world problems—from smart finance tools to secure messaging and futuristic launchers.',
-    icon: '/icons/app-dev.png', // Placeholder icon
+    icon: '/icons/app-dev.png',
     link: '#',
   },
   {
     title: 'Founder – Kayam Exim',
     description: 'Created a health-focused seafood brand during a startup bootcamp.',
-    icon: '/icons/founder.png', // Placeholder icon
-    link: 'https://kayamexim-2aab1.web.app/',
+    icon: '/icons/founder.png',
+    link: '#',
   },
   {
     title: 'Web Development',
     description: 'I create responsive and user-friendly web applications combining powerful AI models with clean design. My experience spans from building machine learning-powered health apps to dynamic portfolio sites using modern frameworks like React and Tailwind CSS.',
-    icon: '/icons/web-dev.png', // Placeholder icon
+    icon: '/icons/web-dev.png',
     link: '#',
   },
   {
     title: 'IoT Development',
     description: 'I design and build smart connected devices using ESP32 and Arduino platforms.',
-    icon: '/icons/iot-dev.png', // Placeholder icon
+    icon: '/icons/iot-dev.png',
     link: '#',
   },
 ]
@@ -59,7 +59,7 @@ const WorkExperience = () => {
           <h2 className="text-3xl font-bold text-center mb-12">Work Experience</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {workExperiences.map((item, index) => (
+            {workExperiences.map((item) => (
               <div
                 key={item.title}
                 className="bg-purple-900/40 rounded-xl p-8 shadow-lg flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6"

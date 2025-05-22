@@ -43,9 +43,8 @@ const About = () => {
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold text-blue-600 dark:text-blue-400">Who I Am</h3>
               <p className="text-white max-w-lg">
-                I'm a passionate Full Stack Developer with a strong foundation in web technologies
-                and a keen eye for creating elegant solutions to complex problems. With several
-                years of experience in the industry, I've worked on various projects ranging
+                I&apos;m a passionate Full Stack Developer with a strong foundation in web technologies
+                and a keen eye for creating elegant solutions to complex problems.I&apos;ve worked on various projects ranging
                 from small business websites to large-scale enterprise applications.
               </p>
               <p className="text-white max-w-lg">
@@ -80,7 +79,7 @@ const About = () => {
             <div className="bg-purple-900/40 rounded-xl p-8 shadow-lg flex flex-col md:flex-row md:items-start space-y-4 md:space-y-0 md:space-x-6">
               <h4 className="text-xl font-semibold mb-4">Education</h4>
               <p className="text-white max-w-lg">
-                Bachelor's Degree in Computer Science<br />
+                Bachelor&apos;s Degree in Computer Science<br />
                 University Name<br />
                 2018 - 2022
               </p>

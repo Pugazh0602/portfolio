@@ -1,0 +1,24 @@
+/* Hexagon shape and floating animation for Hero image */
+.hexagon-float {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  clip-path: polygon(
+    25% 6%, 75% 6%,
+    100% 50%, 75% 94%,
+    25% 94%, 0% 50%
+  );
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 4px solid #60a5fa; /* Tailwind blue-400 */
+  animation: floatHex 3s ease-in-out infinite;
+  background: rgba(255,255,255,0.05);
+}
+
+@keyframes floatHex {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+} 

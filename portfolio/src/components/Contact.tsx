@@ -73,7 +73,7 @@ const Contact = () => {
       await new Promise((resolve) => setTimeout(resolve, 1000))
       setSubmitStatus('success')
       setFormData({ name: '', email: '', message: '' })
-    } catch (error) {
+    } catch {
       setSubmitStatus('error')
     } finally {
       setIsSubmitting(false)
@@ -96,7 +96,7 @@ const Contact = () => {
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-blue-600 dark:text-blue-400">Contact Information</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                  Feel free to reach out to me for any questions or opportunities. I'm always
+                  Feel free to reach out to me for any questions or opportunities. I&apos;m always
                   open to discussing new projects, creative ideas, or opportunities to be part
                   of your vision.
                 </p>
@@ -196,7 +196,7 @@ const Contact = () => {
 
               {submitStatus === 'success' && (
                 <p className="text-green-600 dark:text-green-400 text-sm text-center">
-                  Thank you for your message! I'll get back to you soon.
+                  Thank you for your message! I&apos;ll get back to you soon.
                 </p>
               )}
 

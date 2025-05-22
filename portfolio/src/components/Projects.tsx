@@ -7,7 +7,7 @@ const projects = [
   {
     title: 'Eye Disease Recognition CNN',
     description: 'A deep learning project using Convolutional Neural Networks (CNN) for the detection and classification of various eye diseases. Built with Python and TensorFlow, this project demonstrates the application of AI in medical image analysis.',
-    image: '/projects/eye-disease.jpg',
+    image: 'https://imgs.search.brave.com/6L6wAFaS8ptiQ0QFZ7znarlNeHcK_dqfwvW_TTlEG50/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODc2/OTA3ODI4L3Bob3Rv/L2V5ZXNpZ2h0LWV4/YW0uanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPU1zMGNmQWJU/djZRWnM3djJYYU9W/czIwNnRmUHBxWk9D/VEVUeDMwbDRsOWc9',
     tags: ['Python', 'TensorFlow', 'CNN', 'Deep Learning', 'Computer Vision'],
     link: 'https://github.com/Pugazh0602/EyeDiseaseRecognitionCNN',
     github: 'https://github.com/Pugazh0602/EyeDiseaseRecognitionCNN',
@@ -15,7 +15,7 @@ const projects = [
   {
     title: 'Budget Buddy Joy',
     description: 'A personal finance management application built with TypeScript, helping users track expenses, set budgets, and manage their financial goals. Features include expense categorization, budget planning, and financial analytics.',
-    image: '/projects/budget-buddy.jpg',
+    image: 'https://imgs.search.brave.com/1eiVThgWNYB260vxDH0nfjH_P8PFE4Cz25KZwwyNelM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL1Mv/YXBsdXMtbWVkaWEt/bGlicmFyeS1zZXJ2/aWNlLW1lZGlhLzI3/OWU2NmMyLWQyMzQt/NDM1Zi04YjZkLTNi/ZjEzNzFjYWNhYS5f/X0NSMCwwLDMwMDAs/MzAwMF9QVDBfU1gz/MDBfVjFfX18uanBn',
     tags: ['TypeScript', 'React', 'Node.js', 'MongoDB', 'Full Stack'],
     link: 'https://github.com/Pugazh0602/budget-buddy-joy',
     github: 'https://github.com/Pugazh0602/budget-buddy-joy',
@@ -23,7 +23,7 @@ const projects = [
   {
     title: 'Invisible Apps Haven',
     description: 'A platform showcasing innovative and unique web applications. Built with TypeScript, this project demonstrates modern web development practices and creative application design.',
-    image: '/projects/invisible-apps.jpg',
+    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80',
     tags: ['TypeScript', 'Next.js', 'React', 'Tailwind CSS'],
     link: 'https://github.com/Pugazh0602/invisible-apps-haven',
     github: 'https://github.com/Pugazh0602/invisible-apps-haven',
@@ -31,7 +31,7 @@ const projects = [
   {
     title: 'Neon Legal Minder',
     description: 'A modern legal management system built with TypeScript, featuring case management, document handling, and client communication tools. This project showcases full-stack development skills with a focus on user experience.',
-    image: '/projects/legal-minder.jpg',
+    image: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80',
     tags: ['TypeScript', 'Next.js', 'React', 'Node.js', 'Full Stack'],
     link: 'https://github.com/Pugazh0602/neon-legal-minder',
     github: 'https://github.com/Pugazh0602/neon-legal-minder',
@@ -39,58 +39,27 @@ const projects = [
   {
     title: 'Portfolio Website',
     description: 'A modern, responsive portfolio website built with Next.js and Tailwind CSS. Features smooth animations, dark mode support, and a contact form. This project demonstrates frontend development skills and attention to design details.',
-    image: '/projects/portfolio.jpg',
+    image: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80',
     tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React'],
     link: '#',
     github: 'https://github.com/Pugazh0602/portfolio',
   },
   {
-    title: 'AI Chat Application',
-    description: 'A real-time chat application with AI integration, built using modern web technologies. Features include message encryption, real-time updates, and AI-powered response generation.',
-    image: '/projects/ai-chat.jpg',
-    tags: ['React', 'Node.js', 'Socket.io', 'OpenAI', 'WebSocket'],
-    link: 'https://github.com/Pugazh0602/ai-chat-app',
-    github: 'https://github.com/Pugazh0602/ai-chat-app',
-  },
-  {
     title: 'E-Commerce Platform',
     description: 'A full-stack e-commerce platform with features like product management, shopping cart, payment integration, and order tracking. Built with a focus on scalability and user experience.',
-    image: '/projects/ecommerce.jpg',
+    image: 'https://imgs.search.brave.com/MkAX1LF0qCYpwqjS6b99iRcFd5KP70s5kpadrU4Bb1w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzcwLzY1Lzc4/LzM2MF9GXzcwNjU3/ODgyX0ppTmZFZmNY/eTA1UHVNclJWNGli/a3JTZ3QzSXJ1V1Iz/LmpwZw',
     tags: ['Next.js', 'TypeScript', 'Stripe', 'MongoDB', 'Redux'],
     link: 'https://github.com/Pugazh0602/ecommerce-platform',
     github: 'https://github.com/Pugazh0602/ecommerce-platform',
   },
-  {
-    title: 'Task Management System',
-    description: 'A collaborative task management system with features like real-time updates, team collaboration, and progress tracking. Includes advanced filtering and sorting capabilities.',
-    image: '/projects/task-manager.jpg',
-    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io'],
-    link: 'https://github.com/Pugazh0602/task-management',
-    github: 'https://github.com/Pugazh0602/task-management',
-  },
+  
   {
     title: 'Weather Forecast App',
     description: 'A weather forecasting application that provides real-time weather data and forecasts. Features include location-based weather updates, 7-day forecasts, and weather alerts.',
-    image: '/projects/weather-app.jpg',
+    image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
     tags: ['React', 'OpenWeather API', 'Geolocation', 'CSS Modules'],
     link: 'https://github.com/Pugazh0602/weather-forecast-app',
     github: 'https://github.com/Pugazh0602/weather-forecast-app',
-  },
-  {
-    title: 'Recipe Finder',
-    description: 'A recipe discovery application that helps users find and save recipes based on available ingredients. Includes features like meal planning, nutritional information, and recipe sharing.',
-    image: '/projects/recipe-finder.jpg',
-    tags: ['React', 'Node.js', 'MongoDB', 'Express', 'REST API'],
-    link: 'https://github.com/Pugazh0602/recipe-finder',
-    github: 'https://github.com/Pugazh0602/recipe-finder',
-  },
-  {
-    title: 'Blog Platform',
-    description: 'A full-featured blogging platform with markdown support, user authentication, and comment system. Includes features like rich text editing, image uploads, and social sharing.',
-    image: '/projects/blog-platform.jpg',
-    tags: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Tailwind CSS'],
-    link: 'https://github.com/Pugazh0602/blog-platform',
-    github: 'https://github.com/Pugazh0602/blog-platform',
   }
 ]
 
@@ -127,7 +96,7 @@ const Projects = () => {
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.map((project, index) => (
+            {projects.map((project) => (
               <div
                 key={project.title}
                 className="group relative bg-purple-800/30 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 hover-card"
