@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useEffect, useRef } from 'react'
-import Image from 'next/image'
 
 const workExperiences = [
   {
@@ -13,8 +12,8 @@ const workExperiences = [
   {
     title: 'Founder – Kayam Exim',
     description: 'Created a health-focused seafood brand during a startup bootcamp.',
-    icon: '/icons/founder.png',
-    link: '#',
+    icon: "https://i.pinimg.com/736x/91/b4/bb/91b4bb79e2ffdae7e055d8a8da648b08.jpg",
+    link: 'https://kayamexim-2aab1.web.app/',
   },
   {
     title: 'Web Development',
@@ -64,17 +63,6 @@ const WorkExperience = () => {
                 key={item.title}
                 className="bg-purple-900/40 rounded-xl p-8 shadow-lg flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6"
               >
-                <div className="flex-shrink-0">
-                  {/* Placeholder for Icon */}
-                  <div className="w-20 h-20 relative">
-                     <Image
-                       src={item.icon}
-                       alt={item.title + ' Icon'}
-                       fill
-                       className="object-contain"
-                     />
-                  </div>
-                </div>
                 <div className="flex-grow text-center md:text-left">
                   <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
                   <p className="text-gray-300 mb-4">{item.description}</p>

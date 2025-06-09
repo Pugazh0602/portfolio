@@ -79,9 +79,9 @@ const About = () => {
             <div className="bg-purple-900/40 rounded-xl p-8 shadow-lg flex flex-col md:flex-row md:items-start space-y-4 md:space-y-0 md:space-x-6">
               <h4 className="text-xl font-semibold mb-4">Education</h4>
               <p className="text-white max-w-lg">
-                Bachelor&apos;s Degree in Computer Science<br />
-                University Name<br />
-                2018 - 2022
+                Diploma in Computer Science<br />
+                Srinivasa Subbraya Polytechnic College<br />
+                2022 - 2025
               </p>
             </div>
             <div className="bg-purple-900/40 rounded-xl p-8 shadow-lg flex flex-col md:flex-row md:items-start space-y-4 md:space-y-0 md:space-x-6">

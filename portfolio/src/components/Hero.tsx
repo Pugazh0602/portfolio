@@ -69,7 +69,7 @@ const Hero = () => {
             <div className="absolute inset-0 flex items-center justify-center">
               <div ref={imgRef} className="relative w-90 h-90 lg:w-[21rem] lg:h-[21rem] rounded-full overflow-hidden border-4 border-blue-400 shadow-2xl bg-white/10 backdrop-blur flex items-center justify-center opacity-0">
                 <Image
-                  src="https://avatars.githubusercontent.com/u/188056188?s=400&u=a2bd8858fcf9be732c58d0023b1b01992d5ea2cc&v=4"
+                  src="https://avatars.githubusercontent.com/u/188056188?s=400&u=3d637e1b2826025cfd34b6e3ca336128e4dfe960&v=4"
                   alt="Pukazhendhi Raju"
                   fill
                   className="object-cover"

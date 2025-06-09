@@ -34,6 +34,8 @@ I'm a passionate **Full Stack Developer** with a love for building modern, user-
 
 ## 🌟 Featured Projects
 
+> **✨ New Feature:** Projects are now automatically fetched from my GitHub account and updated in real-time!
+
 | Project | Description | Tech |
 | ------- | ----------- | ---- |
 | **[Eye Disease Recognition CNN](https://github.com/Pugazh0602/EyeDiseaseRecognitionCNN)** | AI-powered medical image analysis using CNNs | Python, TensorFlow |
